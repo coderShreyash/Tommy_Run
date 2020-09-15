@@ -94,7 +94,7 @@ function draw() {
   gameOver.depth=ground.depth-1;
   gameOver.depth=restart.depth;
   score = score + Math.round(getFrameRate()/60);
-  ground.velocityX= -(6 + 0.5*score/100);
+  ground.velocityX= -(6 + 2*score/100);
   ground1.velocityX= ground.velocityX
   if(keyDown("space") &&trex.y>200) {
     trex.velocityY = -15;
@@ -191,7 +191,7 @@ function spawnClouds() {
 function spawnObstacles() {
   if(frameCount % 50 === 0 ) {
     var obstacle = createSprite(displayWidth-900,displayHeight-640,10,40);
-    obstacle.velocityX = -(6 + 0.5*score/100);
+    obstacle.velocityX = -(6 + 2*score/100);
    
     //generate random obstacles
     var rand = Math.round(random(1,6));
