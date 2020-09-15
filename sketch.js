@@ -29,7 +29,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(displayWidth-950,displayHeight-600);
+  createCanvas(displayWidth-970,displayHeight-600);
   PLAY=1;
   END=0;
   gameState=PLAY;
