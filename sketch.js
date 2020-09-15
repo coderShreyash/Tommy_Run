@@ -90,7 +90,7 @@ function draw() {
   
   if(gameState==PLAY){
   
-  ground.depth=ground1.depth-1;
+  ground.depth=ground1.depth;
   gameOver.depth=ground.depth-1;
   gameOver.depth=restart.depth;
   score = score + Math.round(getFrameRate()/60);
