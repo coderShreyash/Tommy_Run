@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg,rgb(255, 230, 0),orange,red)
+}
+canvas {
+ 
+  margin-top: -450px;
+  margin-bottom: 200px;
+ margin-left: 450px;
+ padding: 10px;
+ border: 15px solid black;
+ display:block;
+ 
+}
+.y{
+  text-align: center;
+  font-size: 50px;
+
+}
+.s{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 400px;
+  
+}
+.a{
+  margin-left:670px
+}
+.b{
+  margin-left:10px
+}
+.c{
+  margin-left:10px
+}
